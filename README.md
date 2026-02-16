@@ -76,7 +76,7 @@ If you're interested in retraining the model, currently for Boltz-1 but soon for
 
 Build locally:
 ```bash
-docker build -t boltz .
+docker build --platform linux/amd64 -t boltz .
 ```
 
 Run locally with GPUs and mounted volume:
